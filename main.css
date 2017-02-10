@@ -1,0 +1,26 @@
+body{
+    margin:0;
+    padding: 0;
+}
+#video-container{
+    width: 640px;
+    height: 360px;
+    position: absolute;
+    background-color: aqua;
+    z-index: 1;
+}
+#warp{
+    width: 640px;;
+    height: 360px;
+    /*background-color: black;*/
+    opacity: 0.5;
+    position: relative;
+    z-index: 2;
+}
+#videoControls img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 130px;
+    left: 270px;
+}
